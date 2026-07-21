@@ -1,0 +1,10 @@
+How to run model:
+
+Create new conda environment eexample yolo-env1
+
+Open conda terminal and follow this code:Cd model file path
+Example: cd C:\Users\yuxin\Documents\yolo\my_model
+
+To activate camera/webcam
+
+Python yolo_detect.py --model my_model.pt  -- source usb0 --resolution 1280x720
